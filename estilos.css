@@ -1,0 +1,46 @@
+*{
+    margin-top: auto;
+    box-sizing: border-box;
+}
+
+form{
+    text-align: center;
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin:auto;
+    background-color: aqua;
+}
+
+form label{
+    text-align: center;
+    width: 72px;
+    font-weight: bold;
+    display:inline-block;
+}
+
+form input[type="text"],
+form input[type="password"]{
+    text-align: center;
+    padding: 3px 10px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+input[type="submit"]{
+    background:orangered;
+    text-align: center;
+    color: blue;
+}
+a{
+    text-align: center;
+    color: blue;
+}
+body{
+    background-image: url("https://ichef.bbci.co.uk/news/800/cpsprodpb/15665/production/_107435678_perro1.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: initial;
+}
